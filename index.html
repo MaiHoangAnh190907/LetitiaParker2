@@ -20,6 +20,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -222,9 +225,39 @@
       <p><span>Email</span> <b>emaildemo@gmail.com</b> </p>
       <p><span>Address</span> <b>Hanoi, Vietnam</b> </p>
       </div>
-      <div class="form">
-        
-      </div>
+      <form class="form">
+        <div class="col-2">
+          <div>
+            <label for="">Name</label>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div>
+            <label for="">Email</label>
+            <input type="email" placeholder="Email" />
+          </div>
+        </div>
+        <div class="col-2">
+          <div>
+            <label for="">Phone</label>
+            <input type="text" placeholder="Phone" />
+          </div>
+          <div>
+            <label for="">Subject</label>
+            <input type="text" placeholder="Subject" />
+          </div>
+        </div>
+        <div class="contact-msg">
+          <label for="">Message</label>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <button>Send Now!</button>
+      </form>
     </section>
   </body>
 </html>

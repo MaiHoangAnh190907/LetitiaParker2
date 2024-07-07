@@ -76,7 +76,6 @@ nav > div {
 
 #introduce {
   padding: 83px 0;
-  width: 100vw;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -370,6 +369,10 @@ nav > div {
   gap: 33px;
   margin-top: 48px;
 }
+.Contact{
+  padding-right: 20px;
+  width: 524px;
+}
 .Contact > p:nth-of-type(1) {
   color: var(--primary-color);
   font-size: 24px;
@@ -381,8 +384,6 @@ nav > div {
   justify-content: center;
 }
 .Contact > h4 {
-  width: 524px;
-  height: 128px;
   gap: 0px;
   opacity: 0px;
   font-size: 48px;
@@ -393,9 +394,61 @@ span {
 .Contact > p {
   padding: 12px 0px;
 }
-.form {
-  background-color: red;
-  width: 564px;
-  height: 424px;
+form {
+  display: flex;
+  flex-direction: column;
   margin-left: 64px;
+  gap: 16px;
+}
+
+form .col-2{
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+form .col-2 > div {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4px
+}
+
+.contact-msg{
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  padding: 16px 12px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #F2F2FE;
+  font-family: "Public Sans", sans-serif;
+}
+
+form input::placeholder, form textarea::placeholder{
+  color: #919EAB
+}
+
+form button{
+  border-radius: 12px;
+  padding: 11px 22px;
+  background-color: #FCA61E;
+  color: white;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  font-family: "Public Sans", sans-serif;
+}
+
+form button:hover{
+  cursor: pointer;
+  background-color: var(--primary-color);
+  transition: 0.7s;
 }
