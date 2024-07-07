@@ -370,3 +370,32 @@ nav > div {
   gap: 33px;
   margin-top: 48px;
 }
+.Contact > p:nth-of-type(1) {
+  color: var(--primary-color);
+  font-size: 24px;
+  line-height: 36px;
+}
+#consectetur {
+  padding: 128px 0px;
+  display: flex;
+  justify-content: center;
+}
+.Contact > h4 {
+  width: 524px;
+  height: 128px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 48px;
+}
+span {
+  color: var(--content-color);
+}
+.Contact > p {
+  padding: 12px 0px;
+}
+.form {
+  background-color: red;
+  width: 564px;
+  height: 424px;
+  margin-left: 64px;
+}
