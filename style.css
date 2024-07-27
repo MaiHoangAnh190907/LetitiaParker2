@@ -8,6 +8,7 @@
 html {
   color: black;
   font-family: "Public Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -451,4 +452,32 @@ form button:hover{
   cursor: pointer;
   background-color: var(--primary-color);
   transition: 0.7s;
+}
+
+.btn-up{
+  position: fixed;
+  bottom: 4%;
+  right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn-up:hover{
+  transition: 0.7s;
+  opacity: 0.8;
+}
+
+.btn-up i{
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
 }
